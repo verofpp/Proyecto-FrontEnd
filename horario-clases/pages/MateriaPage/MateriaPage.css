@@ -1,0 +1,53 @@
+.materiaPage-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+    gap: 10px;
+    height: 96vh;
+    overflow: hidden;
+}
+
+.h2-container {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.h2-materia {
+    margin: 0px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: bold;
+    color: #21005D;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.h3-secciones {
+    font-family: Jaldi;
+    font-size: 32px;
+    color: #21005D;
+    font-weight: normal;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secciones-list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+}
+
+.secciones-list::-webkit-scrollbar {
+    display: none;
+}

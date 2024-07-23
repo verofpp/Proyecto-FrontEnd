@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+    gap: 10px;
+    height: 96vh;
+    overflow: hidden;
+}
+
+.materias-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.materias-header h3 {
+    font-family: Jaldi;
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+}
+
+.materias {
+    overflow-x: auto;
+    height: auto;
+}
+
+.materias::-webkit-scrollbar {
+    display: none;
+}
+
+.cuerpo-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+
+.materia-listado {
+    width: 100%;
+}
