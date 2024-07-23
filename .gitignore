@@ -1,0 +1,14 @@
+# Ignora la carpeta node_modules
+node_modules
+Horarios/node_modules
+horario-clases/node_modules
+
+
+# Ignora todos los archivos de texto
+*.txt
+
+# Ignora los archivos relacionados a API keys
+.env
+Horarios/.env
+horario-clases/.env
+
