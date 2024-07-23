@@ -1,0 +1,36 @@
+.materia-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #EADDFF;
+    border: 1px solid #D9D9D9;
+    padding: 24px 18px 24px 18px;
+    gap: 12px;
+    width: 600px;
+    border-radius: 8px;
+}
+
+.h3-container {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.h3-materia {
+    font-family: Jaldi;
+    font-size: 32px;
+    font-weight: bold;
+    color: #21005D;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+}
