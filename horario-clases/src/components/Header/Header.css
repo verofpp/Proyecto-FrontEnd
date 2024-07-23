@@ -1,0 +1,22 @@
+.header-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+}
+
+.logo {
+    font-family: "Jaldi";
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.botones-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
+    width: min-content;
+}

@@ -1,0 +1,21 @@
+.save-button {
+    background-color: #65558F;
+    color: #FEF7FF;
+    padding: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0px;
+    text-decoration: none;
+}
+
+.save-button-disable {
+    background-color: 	#707070;
+    color: #FEF7FF;
+    padding: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0px;
+    text-decoration: none;
+}

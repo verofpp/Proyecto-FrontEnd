@@ -1,0 +1,9 @@
+.show-password {
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,10 @@
+.cancel-button {
+    padding: 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    color: #21005D;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 16px;
+    text-decoration: none;
+}

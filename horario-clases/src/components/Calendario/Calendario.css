@@ -1,0 +1,113 @@
+.fecha-actual {
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 40%;
+    font-weight: 400;
+    color: #1D1B20;
+    margin: 0px;
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.fecha-contenedor {
+    padding: 16px 12px 12px 24px;
+    display: flex;
+}
+
+.linea {
+    background-color: #CAC4D0;
+    height: 1px;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+}
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: #EADDFF;
+    border-radius: 28px;
+    width: min-content;
+    height: min-content;
+    padding-bottom: 10px;
+}
+
+.control-container {
+    display: flex;
+    width: 100%;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 4px 12px 4px 16px;
+}
+
+.cambio-mes-botones {
+    display: flex;
+}
+
+.dias {
+    display: flex;
+    width: 100%;
+}
+
+.react-calendar {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.react-calendar__navigation {
+    display: none;
+}
+
+abbr {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D1B20;
+}
+
+.react-calendar__month-view__days__day {
+    width: 48px;
+    height: 48px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #1D1B20;
+    background-color: #EADDFF;
+    border: 0px;
+    border-radius: 50%;
+}
+
+.react-calendar__month-view__days__day:hover {
+    background-color: #DED2F1;
+}
+
+.footer-calendar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+}

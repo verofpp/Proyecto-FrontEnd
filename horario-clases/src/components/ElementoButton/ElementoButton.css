@@ -1,0 +1,53 @@
+.elemento-container {
+    display: flex;
+    width: 100%;
+}
+
+.codigo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #65558F;
+    border-radius: 12px 0px 0px 12px;
+    height: 80px;
+    width: 80px;
+}
+
+.codigo-materia {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #FEF7FF;
+    font-weight: 400;
+}
+
+.materia-button {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 4px;
+    text-decoration: none;
+}
+
+.materia-nombre {
+    font-family: Roboto;
+    color: #21005D;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.materia-secciones {
+    font-family: Roboto;
+    color: #21005D;
+    font-size: 14px;
+}
+
+.materia-imagen svg {
+    border-radius: 0px 12px 12px 0px;
+}
